@@ -1,0 +1,413 @@
+*{
+    margin: 0;
+    padding: 0;   
+    border: 0;
+    outline: 0;
+}
+* {
+    box-sizing: border-box;
+  }
+.nav{
+    display: flex;
+    justify-content: right;
+    color: white;
+    list-style: none;
+    padding-top: 30px;
+    padding-bottom: 35px;
+    padding-right: 40px;
+}
+.nav a {
+    color: white;
+    text-decoration: none;
+}
+.navication{
+position: fixed;
+top: 0;
+width: 100%;
+display: flex;
+justify-content: space-between;
+background-color: #800000;
+border-radius: 0px 0px 20px 20px;
+z-index: 10;
+}
+.red{
+    color: white;
+    background-color: red;
+}
+.logo{
+    margin: 7px 10px;
+}
+.nav li{
+    padding: 10px 25px;
+    cursor: pointer;
+    border-radius: 40px;
+    font-size: 20px;
+}
+.nav li:hover{
+    background-color: #B22222;
+}
+
+.even{
+    width: 100%;
+    height: 750px;
+    margin-top: 90px;
+    display: flex;
+    justify-content: center;
+    border-radius: 0px 0px 170px 170px;
+    background-color: #800000;
+}
+.about{
+    width: 50%;
+    display: flex;
+    padding: 40px;
+    flex-direction: column;
+    padding-top: 200px;
+    font-size: 20px;
+    color: white;
+}
+.about h1{
+    margin-top: 30px;
+}
+.about p{
+    margin-top:  20px;
+}
+.im{
+    width: 50%;
+   display: flex;
+   justify-content: center;
+   padding-top: 100px;
+}
+.im img{
+    border-radius: 20px;
+}
+.search{
+    margin-top: 60px;
+    position: relative;
+    max-width: 450px;
+    z-index: 0;
+}
+.input{
+    width: 100%;
+    height: 50px;
+    outline: none;
+    border-radius: 25px;
+    background-color: #fff;
+    border: none;
+    padding: 0px 25px;
+    font-size: 14px;
+    color: #7a7a7a;
+}
+.button{
+    display: inline-block;
+    height: 50px;
+    line-height: 50px;
+    background-color: #ee626b;
+    color: #fff;
+    font-size: 15px;
+    text-transform: uppercase;
+    font-weight: 500;
+    padding: 0px 25px;
+    border: none;
+    border-radius: 25px;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+.button :hover{
+    cursor: pointer;
+    background-color: darkgray;
+    color: black;
+}
+
+.item{
+    justify-content:space-evenly;
+    display:flex;
+flex-wrap: wrap;
+position: absolute;
+width: 100%;
+top: 700px;
+padding: 35px;
+border-radius: 25px;
+}
+.box-item{
+    padding: 40px 70px;
+    background-color:#B22222;
+        border-radius: 25px;
+        text-align: center;
+}
+.box-item :hover{
+    cursor: pointer; 
+}
+.box-item:hover > .img-item{
+    cursor: pointer; 
+    background-image: none;
+    background-color: white;
+}
+.img-item{
+    text-align: center;
+    width: 100px;
+    height: 100px;
+    background-color: aqua;
+    border-radius: 50%;
+    padding: 10px 20px;   
+}
+
+.r{
+    color: white;
+}
+.img1{
+    background-image: url("./images/logomenu1.jpg");
+    object-fit: cover;
+    background-size: cover;
+}
+.img2{
+    background-image: url("./images/logomenu2.jpg");
+    object-fit: cover;
+    background-size: cover;
+}
+.img3 {
+    background-image: url("./images/logomenu3.png");
+    object-fit: cover;
+    background-size: cover;
+}
+.img4{
+    background-image: url("./images/logomenu4.png");
+    object-fit: cover;
+    background-size: cover;
+}
+.img-item img{
+    background-color: #EEEEEE;
+}
+.r{
+    margin-top: 10px;
+}
+.Trending{
+    margin-top: 180px;
+    margin-left: 50px;
+}
+.Trending h6{
+    color: red;
+    font-size: 15px;
+}
+.Trending h2{
+    margin-top: 10px;
+    width: 92%;
+    font-size: 30px;
+}
+.TG{
+    display: flex;
+}
+.Trending h4{
+    background-color: red;
+    color: white;
+    border-radius: 80px;
+    width: 8%;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    height: 50px;
+    text-align: right;
+    margin-right: 50px;
+}
+
+.games{
+    justify-content:space-evenly;
+    display:flex;
+flex-wrap: wrap;
+margin-top: 70px;
+}
+.games div{
+    background-color: #EEEEEE;
+    border-radius: 30px;
+}
+.games p {
+    margin-top: 15px;
+    margin-left: 20px;
+}
+.games h3{
+    margin-left: 20px;
+    margin-top: 5px;
+    margin-bottom: 15px;
+}
+.games a{
+    text-decoration: none;
+    color: black;
+}
+.games a:hover{
+    color: red;
+}
+
+.containergame1{
+    background-color: #EEEEEE;
+    height: 500px;
+    border-radius: 100px;
+}
+.Trending1{
+    margin-top: 120px;
+    margin-left: 50px;
+}
+.Trending1 h6{
+    color: red;
+    font-size: 15px;
+}
+.Trending1 h2{
+    margin-top: 10px;
+    width: 92%;
+    font-size: 30px;
+}
+.TG{
+    display: flex;
+}
+.TD1{
+    padding-top: 40px;
+}
+.Trending1 h4{
+    background-color: red;
+    color: white;
+    border-radius: 80px;
+    width: 8%;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    height: 50px;
+    text-align: right;
+    margin-right: 50px;
+}
+.games img{
+    border-radius: 25px;
+}
+.games1 img{
+    border-radius: 25px;
+}
+.games1{
+    justify-content:space-evenly;
+    display:flex;
+flex-wrap: wrap;
+margin-top: 70px;
+}
+.games1 div{
+    background-color: white;
+    border-radius: 20px;
+}
+.games1 p {
+    margin-top: 15px;
+    justify-content: center;
+    display: flex;
+}
+.games1 h3{
+    margin-top: 5px;
+    margin-bottom: 15px;
+    justify-content: center;
+    display: flex; 
+}
+.games1 a{
+    text-decoration: none;
+    color: black;
+}
+.games1 a:hover{
+    color: red;
+}
+
+.footer{
+    margin-top: 90px;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+}
+.footer1{
+    border-radius: 30px;
+    width: 35%;
+    background-color: #EEEEEE;
+    margin-left: 30px;
+    font-size: 23px;
+}
+.footer2{
+    width: 25%;
+    background-color: #EEEEEE;
+    margin-top: 90px;
+    margin-left: 100px;
+    margin-right: 90px;
+    border-radius:30px ;
+    font-size: 23px;
+}
+.footer1 h6{
+    margin-top: 30px;
+    margin-left: 30px;
+    color: red;
+}
+.footer1 h3{
+    margin-left: 30px;
+}
+.footer1 p{
+    margin-left: 30px;
+}
+.ft1{
+    margin-top: 10px;
+}
+.ft1p {
+    margin-top: 10px;
+}
+.footer2 h6{
+    margin-top: 40px;
+    margin-left: 30px;
+    color: red;
+}
+.footer2 h3{
+    margin-left: 30px;
+}
+.ft2{
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+.form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 10px;
+}
+.form input{
+    width: 50%;
+    margin-bottom: 10px;
+    border: none;
+    padding: 10px;
+}
+.btn-send{
+    background-color:red;
+    color: white;
+    font-size: 20px;
+    padding: 2px 20px;
+    margin-bottom: 10px;
+}
+.btn-send:hover{
+    background-color: darkgray;
+    color: black;
+    cursor: pointer;
+}
+.Donate{
+    background-color: red;
+    text-decoration: none;
+    color: white;
+    border-radius: 25px;
+    padding: 0px 30px;
+    margin-left: 90px;
+    height: 50px;
+    display: inline-block;
+    font-weight: 600;
+    line-height: 50px;
+}
+
+.end{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 150px;
+    margin-top: 150px;
+    background-color:#B22222    ;
+    color: white;
+    border-radius: 150px 150px 0px 0px;
+}
+.end a{
+    color: white;
+    text-decoration: none;
+}
